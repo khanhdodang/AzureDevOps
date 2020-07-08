@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This a sample test",
   "scripts": {
-    "automation-test-script": "mocha --require babel-core/register --no-timeouts automation-test-script.js"
+    "test": "mocha --require babel-core/register --no-timeouts automation-test-script.js"
   },
   "author": "Kobiton Inc",
   "license": "ISC",
